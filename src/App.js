@@ -1,4 +1,5 @@
 import ArtistInStudio from "./ArtistInStudio";
+import ArtistsInStudioInformation from "./ArtistsInStudioInformation";
 import StudioVwazenBanner from "./StudioVwazenBanner";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <StudioVwazenBanner />
       <ArtistInStudio />
+      <ArtistsInStudioInformation />
     </>
   );
 }
