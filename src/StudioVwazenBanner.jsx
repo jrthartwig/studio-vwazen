@@ -1,4 +1,4 @@
-import bannerImage from "./studio-banner.jpeg";
+import bannerImage from "./afroplump11.jpeg";
 
 export default function StudioVwazenBanner() {
   return (
