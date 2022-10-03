@@ -2,6 +2,7 @@ import ArtistInStudio from "./ArtistInStudio";
 import ArtistsInStudioInformation from "./ArtistsInStudioInformation";
 import StudioVwazenBanner from "./StudioVwazenBanner";
 import Footer from "./Footer";
+import ContactLyndy from "./ContactLyndy";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <StudioVwazenBanner />
       <ArtistInStudio />
       <ArtistsInStudioInformation />
+      <ContactLyndy />
       <Footer />
     </>
   );
