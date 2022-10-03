@@ -1,6 +1,6 @@
 export default function ContactLyndy() {
   return (
-    <div className="bg-white">
+    <div className="bg-white border-b-2 border-b-indigo-500">
       <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
         <div className="divide-gray-200">
           <div className="lg:grid place-content-center">

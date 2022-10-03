@@ -1,6 +1,6 @@
 export default function ArtistsInStudioInformation() {
   return (
-    <div className="relative overflow-hidden bg-white py-12">
+    <div className="relative overflow-hidden bg-white py-12 border-b-2 border-b-indigo-500">
       <div className="hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full lg:[overflow-anchor:none]">
         <div
           className="relative mx-auto h-full max-w-prose text-lg"
