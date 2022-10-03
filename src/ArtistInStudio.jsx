@@ -6,15 +6,13 @@ const people = [
     role: "Artist / Muralist",
     imageUrl: headshot,
     bio: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
-    twitterUrl: "#",
-    linkedinUrl: "#",
   },
   // More people...
 ];
 
 export default function ArtistInStudio() {
   return (
-    <div className="bg-white border-b-2 border-b-indigo-500">
+    <div className="bg-white border-b-2 border-b-indigo-500/50">
       <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">

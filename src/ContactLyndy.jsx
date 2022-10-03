@@ -1,6 +1,6 @@
 export default function ContactLyndy() {
   return (
-    <div className="bg-white border-b-2 border-b-indigo-500">
+    <div className="bg-white border-b-2 border-b-indigo-500/50">
       <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
         <div className="divide-gray-200">
           <div className="lg:grid place-content-center">
@@ -12,7 +12,7 @@ export default function ContactLyndy() {
                 <dl className="mt-2 text-base text-gray-500">
                   <div>
                     <dt className="sr-only">Email</dt>
-                    <dd>support@example.com</dd>
+                    <dd>lyndy@vwazenstudio.com</dd>
                   </div>
                 </dl>
               </div>

@@ -3,7 +3,7 @@ import bannerImage from "./afroplump11.jpeg";
 export default function StudioVwazenBanner() {
   return (
     <div className="relative bg-gray-50">
-      <main className="lg:relative border-b-4 border-b-indigo-500">
+      <main className="lg:relative border-b-2 border-b-indigo-500/50">
         <div className="mx-auto w-full max-w-7xl pt-16 pb-20 text-center lg:py-48 lg:text-left">
           <div className="px-4 sm:px-8 lg:w-1/2 xl:pr-16">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
