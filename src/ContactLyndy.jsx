@@ -12,7 +12,7 @@ export default function ContactLyndy() {
                 <dl className="mt-2 text-base text-white">
                   <div className="grid place-items-center">
                     <dt className="sr-only">Email</dt>
-                    <dd>lyndy@vwazenstudio.com</dd>
+                    <dd>lyndy@vwazen.com</dd>
                   </div>
                 </dl>
               </div>

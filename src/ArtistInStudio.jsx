@@ -1,11 +1,11 @@
-import headshot from "./Headshot_LB.png";
+import headshot from "./Headshot_LB.jpeg";
 
 const people = [
   {
     name: "Lyndy Bazile",
     role: "Artist / Muralist",
     imageUrl: headshot,
-    bio: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
+    bio: "Lyndy Bazile began her painting career in 2018 and is now a fulltime artist at Vwazen. Through her work, she aims to supports historically marginalized communities by creating art that celebrates multiplicity and evokes pride in diverse identities. Lyndy also utilizes her studio time to connect with her Haitian ancestry and to strengthen her spiritual practice.",
   },
   // More people...
 ];
@@ -16,14 +16,9 @@ export default function ArtistInStudio() {
       <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+            <h2 className="text-4xl font-bold tracking-tight sm:text-4xl">
               Artist in Studio
             </h2>
-            <p className="text-xl text-gray-500">
-              Nulla quam felis, enim faucibus proin velit, ornare id pretium.
-              Augue ultrices sed arcu condimentum vestibulum suspendisse.
-              Volutpat eu faucibus vivamus eget bibendum cras.
-            </p>
           </div>
           <div className="lg:col-span-2">
             <ul className="space-y-12 sm:-mt-8 sm:space-y-0 sm:divide-y sm:divide-gray-200 lg:gap-x-8 lg:space-y-0">

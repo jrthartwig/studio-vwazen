@@ -115,10 +115,11 @@ export default function ArtistsInStudioInformation() {
             </span>
           </h1>
           <p className="mt-8 text-xl leading-8 text-gray-500">
-            Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At
-            arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae
-            feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget.
-            Eleifend egestas fringilla sapien.
+            Studio Vwazen aims to have up to three artists working on site at
+            any given time. Artists will have their own, personal workspace as
+            well as a shared community worktable for larger projects,
+            collaborations and conversations. Please send a message to let us
+            know if you are interested in being an Artist In Studio!
           </p>
         </div>
       </div>

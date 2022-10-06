@@ -10,9 +10,11 @@ export default function StudioVwazenBanner() {
               <span className="block xl:inline">Studio Vwazen</span>
             </h1>
             <p className="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+              “Vwazen” is the Haitian Creole word for neighbor and it is also
+              the name of our multi-artist studio, located in the southeast
+              quadrant of Fort Wayne, IN. Studio Vwazen is working to bring
+              creatives together and support collaborations. Look for In Studio
+              artist residencies beginning in 2023!
             </p>
           </div>
         </div>
