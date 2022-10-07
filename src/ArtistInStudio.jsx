@@ -19,6 +19,13 @@ export default function ArtistInStudio() {
             <h2 className="text-4xl font-bold tracking-tight sm:text-4xl">
               Artist in Studio
             </h2>
+            <p className="mt-8 text-xl leading-8 text-gray-500">
+              Studio Vwazen aims to have up to three artists working on site at
+              any given time. Artists will have their own, personal workspace as
+              well as a shared community worktable for larger projects,
+              collaborations and conversations. Please send a message to let us
+              know if you are interested in being an Artist In Studio!
+            </p>
           </div>
           <div className="lg:col-span-2">
             <ul className="space-y-12 sm:-mt-8 sm:space-y-0 sm:divide-y sm:divide-gray-200 lg:gap-x-8 lg:space-y-0">

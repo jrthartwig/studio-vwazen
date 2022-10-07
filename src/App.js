@@ -1,5 +1,5 @@
 import ArtistInStudio from "./ArtistInStudio";
-import ArtistsInStudioInformation from "./ArtistsInStudioInformation";
+import ArtistsResidency from "./ArtistsResidency";
 import StudioVwazenBanner from "./StudioVwazenBanner";
 import Footer from "./Footer";
 import ContactLyndy from "./ContactLyndy";
@@ -9,7 +9,7 @@ function App() {
     <>
       <StudioVwazenBanner />
       <ArtistInStudio />
-      <ArtistsInStudioInformation />
+      <ArtistsResidency />
       <ContactLyndy />
       <Footer />
     </>

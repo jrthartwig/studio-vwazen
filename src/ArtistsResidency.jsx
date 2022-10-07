@@ -1,4 +1,4 @@
-export default function ArtistsInStudioInformation() {
+export default function ArtistsResidency() {
   return (
     <div className="relative overflow-hidden bg-white py-12 border-b-2 border-b-indigo-500">
       <div className="hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full lg:[overflow-anchor:none]">
@@ -107,19 +107,17 @@ export default function ArtistsInStudioInformation() {
       <div className="relative px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-prose text-lg">
           <h1>
-            <span className="block text-center text-lg font-semibold text-indigo-600">
+            <span className="block text-center text-3xl font-semibold text-indigo-600">
               Coming Soon
             </span>
             <span className="mt-2 block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-              Artists in Studio
+              Artist Residencies
             </span>
           </h1>
           <p className="mt-8 text-xl leading-8 text-gray-500">
-            Studio Vwazen aims to have up to three artists working on site at
-            any given time. Artists will have their own, personal workspace as
-            well as a shared community worktable for larger projects,
-            collaborations and conversations. Please send a message to let us
-            know if you are interested in being an Artist In Studio!
+            We are currently working with the On Ramp program, through the
+            Indiana Arts Commission to develop our residency program. Studio
+            Vwazen will be offering artist residencies starting in spring, 2023.
           </p>
         </div>
       </div>
