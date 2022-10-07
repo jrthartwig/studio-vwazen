@@ -12,7 +12,7 @@ const people = [
 
 export default function ArtistInStudio() {
   return (
-    <div className="bg-white border-b-2 border-b-indigo-500/50">
+    <div className="bg-white border-b-2 border-b-[#988558]/50">
       <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">
@@ -43,7 +43,7 @@ export default function ArtistInStudio() {
                       <div className="space-y-4">
                         <div className="space-y-1 text-lg font-medium leading-6">
                           <h3>{person.name}</h3>
-                          <p className="text-indigo-600">{person.role}</p>
+                          <p className="text-[#988558]">{person.role}</p>
                         </div>
                         <div className="text-lg">
                           <p className="text-gray-500">{person.bio}</p>
