@@ -5,7 +5,7 @@ const people = [
     name: "Lyndy Bazile",
     role: "Artist / Muralist",
     imageUrl: headshot,
-    bio: "Lyndy Bazile began her painting career in 2018 and is now a fulltime artist at Vwazen. Through her work, she aims to supports historically marginalized communities by creating art that celebrates multiplicity and evokes pride in diverse identities. Lyndy also utilizes her studio time to connect with her Haitian ancestry and to strengthen her spiritual practice.",
+    bio: "Lyndy Bazile began her painting career in 2018 and is now a fulltime artist at Vwazen. Through her work, she aims to support historically marginalized communities by creating art that celebrates multiplicity and evokes pride in diverse identities. Lyndy also utilizes her studio time to connect with her Haitian ancestry and to strengthen her spiritual practice.",
   },
   // More people...
 ];
