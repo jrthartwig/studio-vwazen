@@ -1,7 +1,7 @@
-import Home from "./Home";
-import StudioProgram from "./StudioProgram";
+import Home from "./Home/Home";
+import StudioProgram from "./StudioProgram/StudioProgram";
 import { Route, Routes } from "react-router-dom";
-import Layout from "./Layout";
+import Layout from "./Layout/Layout";
 
 const NavRoutes = () => {
   return (
