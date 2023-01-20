@@ -1,19 +1,21 @@
-import ArtistInStudio from "./ArtistInStudio";
-import ArtistsResidency from "./ArtistsResidency";
-import StudioVwazenBanner from "./StudioVwazenBanner";
-import Footer from "./Footer";
-import ContactLyndy from "./ContactLyndy";
+import Home from "./Home";
+import StudioProgram from "./StudioProgram";
+import { Route, Routes } from "react-router-dom";
+import Layout from "./Layout";
+
+const NavRoutes = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="studio-program" element={<StudioProgram />} />
+      </Route>
+    </Routes>
+  );
+};
 
 function App() {
-  return (
-    <>
-      <StudioVwazenBanner />
-      <ArtistInStudio />
-      <ArtistsResidency />
-      <ContactLyndy />
-      <Footer />
-    </>
-  );
+  return <NavRoutes />;
 }
 
 export default App;
