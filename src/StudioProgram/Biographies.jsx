@@ -36,10 +36,7 @@ const Biographies = () => {
               </p>
             </div>
             <div className="lg:col-span-2">
-              <ul
-                role="list"
-                className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8"
-              >
+              <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8">
                 {people.map((person) => (
                   <li key={person.name}>
                     <div className="space-y-4">
@@ -58,7 +55,7 @@ const Biographies = () => {
                         <p className="text-gray-500">{person.bio}</p>
                       </div>
 
-                      <ul role="list" className="flex space-x-5">
+                      <ul className="flex space-x-5">
                         <li>
                           <a
                             href={person.twitterUrl}
