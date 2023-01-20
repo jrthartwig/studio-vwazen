@@ -31,8 +31,7 @@ export default function Navbar() {
               </div>
               <div className="-mr-2 flex sm:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-                  <span className="sr-only">Open main menu</span>
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
                   ) : (
@@ -47,13 +46,13 @@ export default function Navbar() {
             <div className="space-y-1 px-2 pt-2 pb-3">
               {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
               <Link
-                className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
+                className="block rounded-md hover:bg-[#3c331f] hover:text-white px-3 py-2 text-base font-medium text-white"
                 to="/"
               >
                 Home
               </Link>
               <Link
-                className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
+                className="block rounded-md hover:bg-[#3c331f] hover:text-white px-3 py-2 text-base font-medium text-white"
                 to="/studio-program"
               >
                 Studio Program
