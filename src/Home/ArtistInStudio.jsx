@@ -3,7 +3,7 @@ import headshot from "./Headshot_LB.jpeg";
 const people = [
   {
     name: "Lyndy Bazile",
-    role: "Artist / Muralist",
+    role: "Founding Artist",
     imageUrl: headshot,
     bio: "Lyndy Bazile began her painting career in 2018 and is now a fulltime artist at Vwazen. Through her work, she aims to support historically marginalized communities by creating art that celebrates multiplicity and evokes pride in diverse identities. Lyndy also utilizes her studio time to connect with her Haitian ancestry and to strengthen her spiritual practice.",
   },
@@ -14,10 +14,10 @@ export default function ArtistInStudio() {
   return (
     <div className="bg-white border-b-2 border-b-[#988558]/50">
       <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
-        <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
-          <div className="space-y-5 sm:space-y-4">
+        <div className="space-y-12 lg:grid lg:grid-cols-2 lg:gap-8 lg:space-y-0">
+          {/* <div className="space-y-5 sm:space-y-4">
             <h2 className="text-4xl font-bold tracking-tight sm:text-4xl">
-              Artist in Studio
+              Founding Artist
             </h2>
             <p className="mt-8 text-xl leading-8 text-gray-500">
               Studio Vwazen aims to have up to three artists working on site at
@@ -26,7 +26,7 @@ export default function ArtistInStudio() {
               collaborations and conversations. Please send a message to let us
               know if you are interested in being an Artist In Studio!
             </p>
-          </div>
+          </div> */}
           <div className="lg:col-span-2">
             <ul className="space-y-12 sm:-mt-8 sm:space-y-0 sm:divide-y sm:divide-gray-200 lg:gap-x-8 lg:space-y-0">
               {people.map((person) => (
