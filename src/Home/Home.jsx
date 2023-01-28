@@ -1,6 +1,5 @@
 import StudioVwazenBanner from "./StudioVwazenBanner";
 import ArtistInStudio from "./ArtistInStudio";
-import ArtistsResidency from "./ArtistsResidency";
 import ContactLyndy from "./ContactLyndy";
 
 const Home = () => {
@@ -8,7 +7,6 @@ const Home = () => {
     <>
       <StudioVwazenBanner />
       <ArtistInStudio />
-      <ArtistsResidency />
       <ContactLyndy />
     </>
   );

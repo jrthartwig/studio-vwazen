@@ -1,10 +1,10 @@
-import bannerImage from "./afroplump11.jpeg";
+import bannerImage from "./Vwazen.png";
 
 export default function StudioVwazenBanner() {
   return (
     <div className="relative bg-gray-50">
       <main className="lg:relative border-b-2 border-b-[#988558]/50">
-        <div className="mx-auto w-full max-w-7xl pt-16 pb-20 text-center lg:py-48 lg:text-left">
+        <div className="mx-auto w-full max-w-7xl pt-16 pb-20 text-center lg:py-24 lg:text-left">
           <div className="px-4 sm:px-8 lg:w-1/2 xl:pr-16">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
               <span className="block xl:inline">Studio Vwazen</span>
@@ -15,6 +15,14 @@ export default function StudioVwazenBanner() {
               quadrant of Fort Wayne, IN. Studio Vwazen is working to bring
               creatives together and support collaborations. Look for In Studio
               artist residencies beginning in 2023!
+            </p>
+            <br></br>
+            <p className="text-xl leading-8 text-gray-500">
+              Studio Vwazen aims to have up to three artists working on site at
+              any given time. Artists will have their own, personal workspace as
+              well as a shared community worktable for larger projects,
+              collaborations and conversations. Please send a message to let us
+              know if you are interested in being an Artist In Studio!
             </p>
           </div>
         </div>
