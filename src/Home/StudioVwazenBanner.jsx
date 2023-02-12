@@ -13,8 +13,7 @@ export default function StudioVwazenBanner() {
               “Vwazen” is the Haitian Creole word for neighbor and it is also
               the name of our multi-artist studio, located in the southeast
               quadrant of Fort Wayne, IN. Studio Vwazen is working to bring
-              creatives together and support collaborations. Look for In Studio
-              artist residencies beginning in 2023!
+              creatives together and support collaborations.
             </p>
             <br></br>
             <p className="text-xl leading-8 text-gray-500">
