@@ -1,6 +1,7 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
+import logo from "./Vwazen_White.png";
 
 export default function Navbar() {
   return (
@@ -10,13 +11,24 @@ export default function Navbar() {
           <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
             <div className="flex h-16 items-center justify-between">
               <div className="flex items-center">
-                <div className="flex-shrink-0"></div>
+                <div className="flex-shrink-0">
+                  <img
+                    className="block h-8 w-auto"
+                    src={logo}
+                    alt="Your Company"
+                  />
+                  {/* <img
+                    className="hidden h-8 w-auto lg:block"
+                    src={logo}
+                    alt="Your Company"
+                  /> */}
+                </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                     <Link
                       to="/"
-                      className="rounded-md px-3 py-4 text-lg font-bold text-white hover:bg-[#3c331f] hover:text-white"
+                      className="rounded-md ml-24 px-3 py-4 text-lg font-bold text-white hover:bg-[#3c331f] hover:text-white"
                     >
                       Home
                     </Link>
@@ -25,6 +37,12 @@ export default function Navbar() {
                       className="rounded-md px-3 py-4 text-lg font-bold text-white hover:bg-[#3c331f] hover:text-white"
                     >
                       Studio Program
+                    </Link>
+                    <Link
+                      to="/support-studio-vwazen"
+                      className="rounded-md px-3 py-4 text-lg font-bold text-white hover:bg-[#3c331f] hover:text-white"
+                    >
+                      Support Studio Vwazen
                     </Link>
                   </div>
                 </div>
@@ -56,6 +74,12 @@ export default function Navbar() {
                 to="/studio-program"
               >
                 Studio Program
+              </Link>
+              <Link
+                className="block rounded-md hover:bg-[#3c331f] hover:text-white px-3 py-2 text-base font-medium text-white"
+                to="/studio-program"
+              >
+                Support Studio Vwazen
               </Link>
             </div>
           </Disclosure.Panel>
