@@ -14,7 +14,7 @@ const GoFundMe = () => {
         </div>
         <div className="my-8 text-sm">
           <a
-            href="#"
+            href="google.com"
             className="font-medium text-lg text-[#988558] hover:text-[#988558]/50"
           >
             Donate now
