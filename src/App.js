@@ -2,7 +2,7 @@ import Home from "./Home/Home";
 import StudioProgram from "./StudioProgram/StudioProgram";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout/Layout";
-import Supporters from "./Supporters/Supporters";
+import Sponsors from "./Sponsors/Sponsors";
 
 const NavRoutes = () => {
   return (
@@ -10,7 +10,7 @@ const NavRoutes = () => {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="studio-program" element={<StudioProgram />} />
-        <Route path="support-studio-vwazen" element={<Supporters />} />
+        <Route path="sponsors" element={<Sponsors />} />
       </Route>
     </Routes>
   );
