@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const SupportVwazen = () => {
   return (
     <div className="bg-white border-b-2 border-b-[#988558]/50">
