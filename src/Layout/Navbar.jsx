@@ -15,15 +15,10 @@ export default function Navbar() {
                   <img
                     className="block h-8 w-auto"
                     src={logo}
-                    alt="Your Company"
+                    alt="Studio Vwazen"
                   />
-                  {/* <img
-                    className="hidden h-8 w-auto lg:block"
-                    src={logo}
-                    alt="Your Company"
-                  /> */}
                 </div>
-                <div className="hidden sm:ml-6 sm:block">
+                <div className="hidden ml-24 sm:block">
                   <div className="flex space-x-4">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                     <Link
