@@ -23,15 +23,27 @@ export default function Navbar() {
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                     <Link
                       to="/"
-                      className="rounded-md px-3 py-4 text-lg font-bold text-white hover:bg-[#3c331f] hover:text-white"
+                      className="rounded-md ml-24 px-3 py-4 text-lg font-bold text-white hover:bg-[#3c331f] hover:text-white"
                     >
                       Home
                     </Link>
                     <Link
+                      to="/rent-studio"
+                      className="rounded-md ml-24 px-3 py-4 text-lg font-bold text-white hover:bg-[#3c331f] hover:text-white"
+                    >
+                      Rent Studio Space
+                    </Link>
+                    {/* <Link
                       to="/studio-program"
                       className="rounded-md px-3 py-4 text-lg font-bold text-white hover:bg-[#3c331f] hover:text-white"
                     >
                       Studio Program
+                    </Link> */}
+                    <Link
+                      to="/support-us"
+                      className="rounded-md px-3 py-4 text-lg font-bold text-white hover:bg-[#3c331f] hover:text-white"
+                    >
+                      Support Us
                     </Link>
                   </div>
                 </div>
@@ -58,11 +70,23 @@ export default function Navbar() {
               >
                 Home
               </Link>
-              <Link
+              {/* <Link
                 className="block rounded-md hover:bg-[#3c331f] hover:text-white px-3 py-2 text-base font-medium text-white"
                 to="/studio-program"
               >
                 Studio Program
+              </Link> */}
+              <Link
+                className="block rounded-md hover:bg-[#3c331f] hover:text-white px-3 py-2 text-base font-medium text-white"
+                to="/rent-studio"
+              >
+                Rent Studio Space
+              </Link>
+              <Link
+                className="block rounded-md hover:bg-[#3c331f] hover:text-white px-3 py-2 text-base font-medium text-white"
+                to="/support-us"
+              >
+                Support Us
               </Link>
             </div>
           </Disclosure.Panel>
