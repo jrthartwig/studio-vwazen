@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout/Layout";
 import Sponsors from "./Sponsors/Sponsors";
 import RentStudioForm from "./RentStudioForm/RentStudioForm";
+import ThankYou from "./ThankYou/ThankYou";
 
 const NavRoutes = () => {
   return (
@@ -13,6 +14,7 @@ const NavRoutes = () => {
         <Route path="studio-program" element={<StudioProgram />} />
         <Route path="support-us" element={<Sponsors />} />
         <Route path="rent-studio" element={<RentStudioForm />} />
+        <Route path="thank-you" element={<ThankYou />} />
 
         {/* <Route path="sponsors" element={<Sponsors />} /> */}
       </Route>
