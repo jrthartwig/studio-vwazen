@@ -15,11 +15,17 @@ const SupportVwazen = () => {
             community events.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <Link to="/support-studio-vwazen">
-              <button className="rounded-md bg-[#988558] px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-[#988558]/50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-                Donate to Studio Vwazen
-              </button>
-            </Link>
+            <a
+              href="https://www.gofundme.com/the-neighborhood-art-space-at-studio-vwazen
+                "
+              className="rounded-md bg-[#988558] px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-[#988558]/50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+              {" "}
+              Donate to Studio Vwazen
+            </a>
+            {/* Donate to Studio Vwazen
+            </button> */}
+            {/* </Link> */}
           </div>
         </div>
       </div>
