@@ -1,7 +1,7 @@
 import StudioVwazenBanner from "./StudioVwazenBanner";
 import ArtistInStudio from "./ArtistInStudio";
-import ContactLyndy from "./ContactLyndy";
 import SupportVwazen from "../SupportVwazen/SupportVwazen";
+import FellowshipCallToAction from "../FellowshipCallToAction/FellowshipCallToAction";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
       <StudioVwazenBanner />
       <SupportVwazen />
       <ArtistInStudio />
-      <ContactLyndy />
+      <FellowshipCallToAction />
     </>
   );
 };

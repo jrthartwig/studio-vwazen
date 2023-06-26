@@ -33,6 +33,12 @@ export default function Navbar() {
                     >
                       Rent Studio Space
                     </Link>
+                    <Link
+                      to="/apply-to-artist-fellowship"
+                      className="rounded-md ml-24 px-3 py-4 text-lg font-bold text-white hover:bg-[#3c331f] hover:text-white"
+                    >
+                      Apply to Artist Fellowship
+                    </Link>
                     {/* <Link
                       to="/studio-program"
                       className="rounded-md px-3 py-4 text-lg font-bold text-white hover:bg-[#3c331f] hover:text-white"
@@ -81,6 +87,12 @@ export default function Navbar() {
                 to="/rent-studio"
               >
                 Rent Studio Space
+              </Link>
+              <Link
+                className="block rounded-md hover:bg-[#3c331f] hover:text-white px-3 py-2 text-base font-medium text-white"
+                to="/apply-to-artist-fellowship"
+              >
+                Apply to Artist Fellowship
               </Link>
               <Link
                 className="block rounded-md hover:bg-[#3c331f] hover:text-white px-3 py-2 text-base font-medium text-white"

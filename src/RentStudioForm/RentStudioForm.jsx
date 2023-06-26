@@ -4,7 +4,7 @@ const RentStudioForm = () => {
   return (
     <>
       <StudioRentBanner />
-      <div className="mx-16 px-4 py-12">
+      <div className="mx-16 px-4 py-12 text-lg">
         <form
           method="POST"
           action="https://getform.io/f/953eeaa3-31e5-45f0-84cf-87f53b0f0af9"
@@ -13,7 +13,7 @@ const RentStudioForm = () => {
             htmlFor="name"
             className="block text-sm font-medium leading-6 text-gray-900 my-4"
           >
-            Name
+            <div className="text-xl">Name</div>
           </label>
           <div className="relative mt-2">
             <input
@@ -33,7 +33,7 @@ const RentStudioForm = () => {
             htmlFor="name"
             className="block text-sm font-medium leading-6 text-gray-900 my-4"
           >
-            Email
+            <div className="text-xl">Email</div>
           </label>
           <div className="relative mt-2">
             <input
@@ -53,7 +53,7 @@ const RentStudioForm = () => {
             htmlFor="name"
             className="block text-sm font-medium leading-6 text-gray-900 my-4"
           >
-            Zip code
+            <div className="text-xl">Zip Code</div>
           </label>
           <div className="relative my-4">
             <input
@@ -86,9 +86,12 @@ const RentStudioForm = () => {
                   htmlFor="renaissance-point"
                   className="font-medium text-gray-900"
                 >
-                  Renaissance Point Resident?
+                  <div className="text-xl">Renaissance Point Resident?</div>
                 </label>
-                <p id="renaissance-point-description" className="text-gray-500">
+                <p
+                  id="renaissance-point-description"
+                  className="text-gray-500 text-lg"
+                >
                   Check here if you reside in Renaissance Point
                 </p>
               </div>
@@ -101,7 +104,7 @@ const RentStudioForm = () => {
             htmlFor="desired-start-month"
             className="block text-sm font-medium leading-6 text-gray-900 my-4"
           >
-            Desired Start Month
+            <div className="text-xl">Desired Start Month</div>
           </label>
           <select
             id="desired-start-month"
@@ -127,7 +130,7 @@ const RentStudioForm = () => {
             htmlFor="desired-start-month"
             className="block text-sm font-medium leading-6 text-gray-900 my-4"
           >
-            Desired End Month
+            <div className="text-xl">Desired End Month</div>
           </label>
           <select
             id="desired-end-month"
@@ -151,7 +154,7 @@ const RentStudioForm = () => {
           </select>
           <label
             htmlFor="name"
-            className="block text-sm font-medium leading-6 text-gray-900 my-4"
+            className="block text-xl font-medium leading-6 text-gray-900 my-4"
           >
             Please list your social media and/or website!
           </label>
@@ -171,7 +174,7 @@ const RentStudioForm = () => {
           </div>
           <button
             type="submit"
-            className="rounded-md bg-[#988558] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#3c331f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 my-4"
+            className="rounded-md bg-[#988558] px-3.5 py-2.5 text-lg font-semibold text-white shadow-sm hover:bg-[#3c331f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 my-4"
           >
             Submit
           </button>
