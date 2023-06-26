@@ -15,7 +15,10 @@ const NavRoutes = () => {
         <Route path="studio-program" element={<StudioProgram />} />
         <Route path="support-us" element={<Sponsors />} />
         <Route path="rent-studio" element={<RentStudioForm />} />
-        <Route path="apply-to-studio-program" element={<StudioProgramForm />} />
+        <Route
+          path="apply-to-artist-fellowship"
+          element={<StudioProgramForm />}
+        />
         <Route path="thank-you" element={<ThankYou />} />
 
         {/* <Route path="sponsors" element={<Sponsors />} /> */}

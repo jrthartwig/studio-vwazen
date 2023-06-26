@@ -1,6 +1,8 @@
 import bannerImage from "./Studio.png";
 
 export default function StudioProgramBanner() {
+  const thisYear = new Date().getFullYear();
+
   return (
     <div className="relative bg-gray-50">
       <main className="lg:relative border-b-2 border-b-[#988558]/50">
@@ -8,25 +10,26 @@ export default function StudioProgramBanner() {
           <div className="px-4 sm:px-8 lg:w-1/2 xl:pr-16">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
               <span className="block xl:inline">
-                Interested in Applying for the Studio Program?
+                Interested in Applying for the {thisYear + 1} Artist Fellowship?
               </span>
             </h1>
-            <div className="mt-12">
-              <ul className="list-disc">
+
+            <div className="mt-12 ml-12">
+              <ul className="list-disc leading-loose text-left">
                 <li className="text-2xl tracking-tight text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl">
-                  test
+                  100% Cost Free
                 </li>
                 <li className="text-2xl tracking-tight text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl">
-                  test
+                  Art Career Development
                 </li>
                 <li className="text-2xl tracking-tight text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl">
-                  test
+                  Access to Studio Vwazen
                 </li>
                 <li className="text-2xl tracking-tight text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl">
-                  test
+                  Opportunities to Collaborate
                 </li>
                 <li className="text-2xl tracking-tight text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl">
-                  test
+                  Group Art Show with Fellow Artists
                 </li>
               </ul>
             </div>

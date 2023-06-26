@@ -34,10 +34,10 @@ export default function Navbar() {
                       Rent Studio Space
                     </Link>
                     <Link
-                      to="/apply-to-studio-program"
+                      to="/apply-to-artist-fellowship"
                       className="rounded-md ml-24 px-3 py-4 text-lg font-bold text-white hover:bg-[#3c331f] hover:text-white"
                     >
-                      Studio Program
+                      Apply to Artist Fellowship
                     </Link>
                     {/* <Link
                       to="/studio-program"
@@ -90,9 +90,9 @@ export default function Navbar() {
               </Link>
               <Link
                 className="block rounded-md hover:bg-[#3c331f] hover:text-white px-3 py-2 text-base font-medium text-white"
-                to="/apply-to-studio-program"
+                to="/apply-to-artist-fellowship"
               >
-                Studio Program
+                Apply to Artist Fellowship
               </Link>
               <Link
                 className="block rounded-md hover:bg-[#3c331f] hover:text-white px-3 py-2 text-base font-medium text-white"

@@ -11,7 +11,7 @@ const StudioProgramForm = () => {
         >
           <label
             htmlFor="name"
-            className="block text-sm font-medium leading-6 text-gray-900 my-4"
+            className="block text-xl font-medium leading-6 text-gray-900 my-4"
           >
             Name
           </label>
@@ -31,7 +31,7 @@ const StudioProgramForm = () => {
           </div>
           <label
             htmlFor="name"
-            className="block text-sm font-medium leading-6 text-gray-900 my-4"
+            className="block text-xl font-medium leading-6 text-gray-900 my-4"
           >
             Email
           </label>
@@ -51,7 +51,7 @@ const StudioProgramForm = () => {
           </div>
           <label
             htmlFor="name"
-            className="block text-sm font-medium leading-6 text-gray-900 my-4"
+            className="block text-xl font-medium leading-6 text-gray-900 my-4"
           >
             Zip code
           </label>
@@ -84,17 +84,26 @@ const StudioProgramForm = () => {
               <div className="ml-3 text-sm leading-6">
                 <label
                   htmlFor="renaissance-point"
-                  className="font-medium text-gray-900"
+                  className="text-xl font-medium text-gray-900"
                 >
                   Renaissance Point Resident?
                 </label>
-                <p id="renaissance-point-description" className="text-gray-500">
+                <p
+                  id="renaissance-point-description text-xl font-medium"
+                  className="text-gray-500"
+                >
                   Check here if you reside in Renaissance Point
                 </p>
               </div>
             </div>
           </div>
           <div className="relative mt-2">
+            <label
+              htmlFor="name"
+              className="block text-xl font-medium leading-6 text-gray-900 my-4"
+            >
+              Please list your social media and/or website!
+            </label>
             <input
               type="text"
               name="socialmedia"
