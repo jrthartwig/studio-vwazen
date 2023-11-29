@@ -9,7 +9,7 @@ const Home = () => {
       <StudioVwazenBanner />
       <SupportVwazen />
       <ArtistInStudio />
-      <FellowshipCallToAction />
+      {/* <FellowshipCallToAction /> */}
     </>
   );
 };
