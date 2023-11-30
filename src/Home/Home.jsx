@@ -1,7 +1,7 @@
 import StudioVwazenBanner from "./StudioVwazenBanner";
 import ArtistInStudio from "./ArtistInStudio";
 import SupportVwazen from "../SupportVwazen/SupportVwazen";
-import FellowshipCallToAction from "../FellowshipCallToAction/FellowshipCallToAction";
+// import FellowshipCallToAction from "../FellowshipCallToAction/FellowshipCallToAction";
 
 const Home = () => {
   return (
